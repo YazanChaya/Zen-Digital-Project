@@ -13,6 +13,7 @@ const linksHeader = $$(".nav-a");
 const pages = $$(".page");
 const toTopBtn = $("#to-top");
 const linksMobile = $$(".link-mobile");
+const contactForm = $("#contact-form");
 
 // Portfolio data
 const portfolioItems = [
@@ -164,6 +165,21 @@ linksMobile.forEach((link, index) => {
 
     mobileNav.classList.remove("active");
   });
+});
+
+contactForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  const name = document.getElementById("name").value;
+  const email = document.getElementById("email").value;
+  const service = document.getElementById("service").value;
+  const message = document.getElementById("message").value;
+
+  alert(
+    `Thank you, ${name}! Your message has been received. We'll contact you at ${email} about ${service} services.`
+  );
+
+  contactForm.reset();
 });
 
 document.addEventListener("DOMContentLoaded", function () {
