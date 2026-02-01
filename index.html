@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/src/output.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Zen Digital | Professional SPA</title>
+  </head>
+  <body class="bg-white-2 text-black-1 lh-base overflow-x-hidden">
+    <!-- Header -->
+    <header
+      class="sticky top-0 left-0 z-100 bg-white shadow-[0px_4px_6px_rgba(0,0,0,0.1)]"
+    >
+      <div class="center-container">
+        <div
+          class="flex flex-col justify-between items-center gap-3 md:flex-row md:justify-between md:items-center py-5 px-0"
+        >
+          <a
+            href="#"
+            class="text-[24px] font-bold flex gap-2.5 items-center text-primary"
+            ><i class="fa-solid fa-cube text-binking"></i
+            ><span>Zen Digital</span></a
+          >
+          <nav class="desktop-nav">
+            <ul class="hidden md:flex gap-7.5 items-center">
+              <li><a href="#" class="nav-a active">Home</a></li>
+              <li><a href="#" class="nav-a">Services</a></li>
+              <li>
+                <a href="#" class="btn-nav shadow-[0px_4px_6px_rgba(0,0,0,0.1)]"
+                  >Get Started</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <button class="theme-icon ml-5 text-[20px] cursor-pointer">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button
+            class="mobile-menu text-[24px] cursor-pointer md:hidden block absolute top-5 right-5"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Mobile Navigation -->
+    <nav
+      class="mobile-nav d-none opacity-0 fixed top-0 left-0 w-full h-full bg-white flex-col justify-center items-center duration-300 z-[-1]"
+    >
+      <button
+        class="close-menu text-[30px] cursor-pointer absolute top-7.5 right-7.5 bg-none border-none text-black-1"
+      >
+        <i class="fa-solid fa-times"></i>
+      </button>
+      <ul class="text-center">
+        <li class="mb-7.5">
+          <a
+            href="#"
+            class="link-mobile text-[24px] font-semibold text-black-1 duration-300 active"
+            >Home</a
+          >
+        </li>
+        <li class="mb-7.5">
+          <a
+            href="#"
+            class="link-mobile text-[24px] font-semibold text-black-1 duration-300"
+            >Services</a
+          >
+        </li>
+        <li class="mb-7.5">
+          <a
+            href="#"
+            class="inline-block bg-primary rounded-md cursor-pointer font-semibold py-3 px-7.5 text-[24px] text-black-1 shadow-[0px_4px_6px_rgba(0,0,0,0.1)] duration-300 hover:-translate-y-0.75 hover:text-primary hover:bg-primary-dark"
+            >Get Started</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <!-- Main Content -->
+    <main class="">
+      <!-- Home Page -->
+      <section class="page active">
+        <div class="center-container">
+          <!-- Hero Section -->
+          <div
+            class="flex flex-col text-center md:flex-row md:items-center gap-10 mb-20"
+          >
+            <div class="text-center md:flex-1 md:text-left">
+              <h1
+                class="text-[36px] mb-5 text-primary font-bold lh-1 md:text-[48px]"
+              >
+                Transform Your Digital Presence
+              </h1>
+              <p class="text-gray-1 mb-5 text-[18px]">
+                We create stunning websites and digital experiences that help
+                businesses grow and succeed in the modern world.
+              </p>
+              <a
+                href="#"
+                class="btn-main shadow-[0px_4px_6px_rgba(0,0,0,0.1)] hover:bg-primary-dark!"
+                >Get Started</a
+              >
+              <a
+                href="#"
+                class="btn-main shadow-[0px_4px_6px_rgba(0,0,0,0.1)] bg-secondary! hover:bg-[#6a28c7]! ml-2.5"
+                >Learn More</a
+              >
+            </div>
+            <div
+              class="flex-1 rounded-xl overflow-hidden shadow-[0px_4px_6px_rgba(0,0,0,0.1)] md:w-full"
+            >
+              <div
+                class="flex flex-col items-center justify-center w-full h-100 bg-[linear-gradient(135deg,#3a86ff,#8338ec)] text-[24px] text-white md:flex-row"
+              >
+                <i class="fa-solid fa-laptop-code mr-5 text-[80px]"></i>
+                <div>Digital Solutions</div>
+              </div>
+            </div>
+          </div>
+          <!-- Features Section -->
+          <div class="text-center mb-12.5">
+            <h2 class="text-[28px] font-bold md:text-[36px] text-primary mb-5">
+              Why Choose Us
+            </h2>
+            <p class="text-gray-1 mb-5 text-[18px]">
+              We deliver exceptional results through our unique approach
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-7.5 mb-20"
+          >
+            <div class="feature-card shadow-[0px_4px_6px_rgba(0,0,0,0.1)]">
+              <div class="feature-icon">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <h3 class="text-[24px] mb-3.75 text-black-1 font-bold">
+                Innovative Solutions
+              </h3>
+              <p class="mb-5 text-[18px] text-gray-1">
+                We create cutting-edge solutions tailored to your business needs
+                and goals.
+              </p>
+            </div>
+            <div class="feature-card shadow-[0px_4px_6px_rgba(0,0,0,0.1)]">
+              <div class="feature-icon">
+                <i class="fa-solid fa-rocket"></i>
+              </div>
+              <h3 class="text-[24px] mb-3.75 text-black-1 font-bold">
+                Fast Delivery
+              </h3>
+              <p class="mb-5 text-[18px] text-gray-1">
+                We understand time is money and deliver projects on time without
+                compromising quality.
+              </p>
+            </div>
+            <div class="feature-card shadow-[0px_4px_6px_rgba(0,0,0,0.1)]">
+              <div class="feature-icon">
+                <i class="fa-solid fa-headset"></i>
+              </div>
+              <h3 class="text-[24px] mb-3.75 text-black-1 font-bold">
+                24/7 Support
+              </h3>
+              <p class="mb-5 text-[18px] text-gray-1">
+                Our dedicated support team is always available to help you with
+                any issues.
+              </p>
+            </div>
+          </div>
+          <!-- Testimonials -->
+          <div class="testimonials">
+            <div class="text-center mb-12.5">
+              <h2
+                class="text-[28px] font-bold md:text-[36px] text-primary mb-5"
+              >
+                What Our Clients Say
+              </h2>
+              <p class="text-gray-1 mb-5 text-[18px]">
+                Don't just take our word for it
+              </p>
+            </div>
+            <div class="max-w-200 my-0 mx-auto relative overflow-hidden h-50">
+              <div class="testimonial active">
+                <p class="testimonial-text">
+                  "Working with Zen Digital transformed our online presence. Our
+                  website traffic increased by 200% in just three months!"
+                </p>
+                <p class="testimonial-author">
+                  - Sarah Johnson, Marketing Director
+                </p>
+              </div>
+              <div class="testimonial">
+                <p class="testimonial-text">
+                  "The team delivered exactly what we needed on time and within
+                  budget. I would highly recommend their services."
+                </p>
+                <p class="testimonial-author">
+                  - Michael Chen, Startup Founder
+                </p>
+              </div>
+              <div class="testimonial">
+                <p class="testimonial-text">
+                  "Their attention to detail and creative approach helped us
+                  stand out in a crowded market. Excellent work!"
+                </p>
+                <p class="testimonial-author">
+                  - Emily Rodriguez, Business Owner
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-center gap-2.5 mt-7.5">
+              <div class="testimonial-dot active"></div>
+              <div class="testimonial-dot"></div>
+              <div class="testimonial-dot"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Page -->
+      <section class="page">
+        <div class="center-container">
+          <div class="text-center mb-12.5">
+            <h2 class="text-[28px] font-bold md:text-[36px] text-primary mb-5">
+              Our Services
+            </h2>
+            <p class="text-gray-1 mb-5 text-[18px]">
+              Comprehensive solutions to grow your business
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-7.5 mb-20"
+          >
+            <div class="service-card shadow-[0px_4px_6px_rgba(0,0,0,0.1)]">
+              <div class="service-image">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="p-6.25">
+                <h3 class="text-[24px] mb-3.75 text-black-1 font-bold">
+                  Web Development
+                </h3>
+                <p class="mb-5 text-gray-1 text-[18px]">
+                  Custom websites and web applications built with the latest
+                  technologies and best practices.
+                </p>
+                <a href="#" class="btn-main hover:bg-primary-dark! mb-3.75"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="service-card shadow-[0px_4px_6px_rgba(0,0,0,0.1)]">
+              <div class="service-image">
+                <i class="fa-solid fa-paint-brush"></i>
+              </div>
+              <div class="p-6.25">
+                <h3 class="text-[24px] mb-3.75 text-black-1 font-bold">
+                  UI/UX Design
+                </h3>
+                <p class="mb-5 text-gray-1 text-[18px]">
+                  Beautiful and intuitive user interfaces that enhance user
+                  experience and drive engagement.
+                </p>
+                <a href="#" class="btn-main hover:bg-primary-dark! mb-3.75"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="service-card shadow-[0px_4px_6px_rgba(0,0,0,0.1)]">
+              <div class="service-image">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <div class="p-6.25">
+                <h3 class="text-[24px] mb-3.75 text-black-1 font-bold">
+                  Digital Marketing
+                </h3>
+                <p class="mb-5 text-gray-1 text-[18px]">
+                  Strategic marketing campaigns to increase your online
+                  visibility and attract more customers.
+                </p>
+                <a href="#" class="btn-main hover:bg-primary-dark! mb-3.75"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Portfolio Section -->
+          <div class="text-center mb-12.5">
+            <h2 class="text-[28px] font-bold md:text-[36px] text-primary mb-5">
+              Our Portfolio
+            </h2>
+            <p class="text-gray-1 mb-5 text-[18px]">
+              Check out some of our recent work
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-7.5 mb-20"
+            id="portfolio-container"
+          ></div>
+          <!-- Contact Form -->
+          <div class="text-center mb-12.5">
+            <h2 class="text-[28px] font-bold md:text-[36px] text-primary mb-5">
+              Get In Touch
+            </h2>
+            <p class="text-gray-1 mb-5 text-[18px]">
+              Ready to start your project? Contact us today!
+            </p>
+          </div>
+          <form
+            class="contact-form shadow-[0px_4px_6px_rgba(0, 0, 0, 0.1)]"
+            id="contact-form"
+          >
+            <div class="mb-5">
+              <label class="block mb-2 font-medium text-black-1" for="name"
+                >Full Name</label
+              >
+              <input
+                class="focus:shadow-[0px_0px_0px_3px_rgba(58,134,255,0.1)]"
+                type="text"
+                id="name"
+                required=""
+              />
+            </div>
+            <div class="mb-5">
+              <label class="block mb-2 font-medium text-black-1" for="email"
+                >Email Address</label
+              >
+              <input
+                class="focus:shadow-[0px_0px_0px_3px_rgba(58,134,255,0.1)]"
+                type="email"
+                id="email"
+                required=""
+              />
+            </div>
+            <div class="mb-5">
+              <label class="block mb-2 font-medium text-black-1" for="service"
+                >Service Interested In</label
+              >
+              <select
+                class="focus:shadow-[0px_0px_0px_3px_rgba(58,134,255,0.1)]"
+                id="service"
+              >
+                <option value="web-development">Web Development</option>
+                <option value="ui-ux">UI/UX Design</option>
+                <option value="digital-marketing">Digital Marketing</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="mb-5">
+              <label class="block mb-2 font-medium text-black-1" for="message"
+                >Message</label
+              >
+              <textarea
+                class="focus:shadow-[0px_0px_0px_3px_rgba(58,134,255,0.1)]"
+                id="message"
+                rows="5"
+                required=""
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn-main shadow-[0px_4px_6px_rgba(0,0,0,0.1)] hover:bg-primary-dark!"
+            >
+              Send Message
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-black-1 text-white-pm pt-15 px-0 pb-7.5">
+      <div class="center-container">
+        <div
+          class="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-10 mb-10"
+        >
+          <div>
+            <h3 class="text-white-pm mb-5 text-[20px] font-bold">
+              Zen Digital
+            </h3>
+            <p class="mb-5 text-gray-1 text-[18px]">
+              Transforming businesses with innovative digital solutions since
+              2010.
+            </p>
+            <div class="flex gap-3.75 mt-5">
+              <a
+                class="flex justify-center items-center w-10 h-10 rounded-full bg-white-1 text-white-pm duration-300 hover:bg-primary hover:-translate-y-0.75"
+                href="#"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="flex justify-center items-center w-10 h-10 rounded-full bg-white-1 text-white-pm duration-300 hover:bg-primary hover:-translate-y-0.75"
+                href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="flex justify-center items-center w-10 h-10 rounded-full bg-white-1 text-white-pm duration-300 hover:bg-primary hover:-translate-y-0.75"
+                href="#"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                class="flex justify-center items-center w-10 h-10 rounded-full bg-white-1 text-white-pm duration-300 hover:bg-primary hover:-translate-y-0.75"
+                href="#"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div>
+            <h3 class="text-white-pm mb-5 text-[20px] font-bold">
+              Quick Links
+            </h3>
+            <ul>
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >Services</a
+                >
+              </li>
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3 class="text-white-pm mb-5 text-[20px] font-bold">Services</h3>
+            <ul class="footer-links">
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >Web Development</a
+                >
+              </li>
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >UI/UX Design</a
+                >
+              </li>
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >Digital Marketing</a
+                >
+              </li>
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >Branding</a
+                >
+              </li>
+              <li class="mb-2.5">
+                <a class="text-gray-2 duration-300 hover:text-white-pm" href="#"
+                  >Consulting</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3 class="text-white-pm mb-5 text-[20px] font-bold">
+              Contact Info
+            </h3>
+            <ul class="footer-links">
+              <li class="mb-2.5">
+                <i class="fas fa-map-marker-alt"></i> 123 Business Ave, Suite
+                100
+              </li>
+              <li class="mb-2.5">
+                <i class="fas fa-phone"></i> +1 (555) 123-4567
+              </li>
+              <li class="mb-2.5">
+                <i class="fas fa-envelope"></i> info@zendigital.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="text-center pt-7.5 border-t border-solid border-white-1 text-[14px] text-gray-3"
+        >
+          <p class="mb-5 text-[18px] text-gray-1">
+            © 2025 Zen Digital. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Button To Top -->
+    <div
+      class="to-top hover:bg-primary-dark! shadow-[0px_4px_6px_rgba(0,0,0,0.1)]"
+      id="to-top"
+    >
+      <i class="fa-solid fa-chevron-up"></i>
+    </div>
+    <script src="master.js"></script>
+  </body>
+</html>
